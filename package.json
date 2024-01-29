@@ -43,8 +43,7 @@
 					"text.html"
 				],
 				"embeddedLanguages": {
-					"meta.embedded.block.ejs": "ejs",
-					"meta.embedded.block.javascript": "source.js"
+					"meta.embedded.block.ejs": "ejs"
 				}
 			}
 		],

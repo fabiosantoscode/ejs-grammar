@@ -107,20 +107,13 @@
 			"begin":"(<(?:[%?]|e)(?:(?!php))[%_=-]?)(?!(\\s*\\*\/))(((?!([_-]?(?:[%?]|e/)>)).)+)(?=([_-]?(?:[%?]|e/)>))",
 			"beginCaptures": {
 				"0": {
-					"contentName":"source.js",
 					"name": "meta.embedded.*"
 				},
 				"1": {
 					"name": "keyword.operator.relational.js"
 				},
 				"3": {
-					"name": "meta.embedded.ejs",
-					"contentName": "source.js",
-					"patterns":[
-						{
-							"include":"source.js"
-						}
-					]
+					"name": "meta.embedded.ejs"
 				},
 				"6": {
 					"name": "keyword.operator.relational.js"
@@ -142,13 +135,7 @@
 					"name": "keyword.operator.relational.js"
 				},
 				"3": {
-					"name": "meta.embedded.ejs",
-					"contentName": "source.js",
-					"patterns":[
-						{
-							"include":"source.js"
-						}
-					]
+					"name": "meta.embedded.ejs"
 				}
 			},
 			"end": "(([_-]?(?:[%?]|e/)>))",
